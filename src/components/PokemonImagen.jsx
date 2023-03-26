@@ -21,9 +21,9 @@ const PokemonImagen = ({ id }) => {
     return (
         <div>
             {imagenUrl ? (
-                <img src={imagenUrl} alt={`Imagen del Pokémon con ID ${id}`} />
+                <img className='img-fluid' src={imagenUrl} alt={`Imagen del Pokémon con ID ${id}`} />
             ) : (
-                <img src={process.env.PUBLIC_URL + '/src/img/img-carga.jpg'} alt="Cargando imagen..." />
+                <img className='img-fluid' src={process.env.PUBLIC_URL + '/src/img/img-carga.jpg'} alt="Cargando imagen..." />
             )}
         </div>
     );

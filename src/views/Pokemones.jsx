@@ -18,7 +18,7 @@ const Pokemones = () => {
                 <h1 className="py-4 text-center">Sección Pokémones</h1>
                 <div className="row justify-content-around">
                     <div className="col-4">
-                    <img src={process.env.PUBLIC_URL + '/src/img/main-section-pokemon.png'} alt="Cargando imagen..." />
+                    <img className="img-fluid" src={process.env.PUBLIC_URL + '/src/img/main-section-pokemon.png'} alt="Cargando imagen..." />
 
                     </div>
                     <div className="col-4">

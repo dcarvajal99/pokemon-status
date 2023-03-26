@@ -17,7 +17,7 @@ function NavigationBar() {
           src={process.env.PUBLIC_URL + '/src/img/Navbar-logo.png'}
           width="190"
           height="50"
-          className="d-inline-block align-top"
+          className="d-inline-block align-top img-fluid"
           alt="Logo"
         />
           </NavLink>
