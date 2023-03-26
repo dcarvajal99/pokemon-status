@@ -1,3 +1,10 @@
 .active{
-    color: darkgreen;
+    color: #ff0000;
 }
+.pokeball {
+    background-image: url('pokeball.svg');
+    background-size: 20px 20px; /* especifica el tamaño del SVG */
+    background-repeat: no-repeat; /* evita que la imagen se repita */
+    padding-left: 25px; /* agrega un padding a la izquierda del texto para separarlo del SVG */
+    line-height: 20px; /* ajusta la altura de la línea para que coincida con el tamaño del SVG */
+  }

@@ -4,7 +4,8 @@ import NavigationBar from "./components/NavBar/NavBar"
 import Home from './views/Home';
 import Pokemones from './views/Pokemones';
 import NotFound from './views/NotFound';
-import './app.css'
+import Resultado from './views/Resultado';
+import './App.css'
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <NavigationBar />
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/pokemones" element={<Pokemones />} />
+            <Route path="/pokemones/" element={<Pokemones />} />
+            <Route path="/pokemones/:id" element={<Resultado />} />
             <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
