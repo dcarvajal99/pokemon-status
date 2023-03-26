@@ -15,12 +15,15 @@ const Resultado = () => {
                 <h1 className="py-4 text-center">{id}</h1>
                 <div className="row justify-content-around">
                     <div className="col-4">
-                        <PokemonImagen id={id} />
+                        <div class="col-xs-12 col-sm-6">
+                            <PokemonImagen id={id} />
+                        </div>
                     </div>
                     <div className="col-4">
+                    <div class="col-xs-12 col-sm-6">
                         <h1>Stats</h1>
-                        <PokemonStats id={id}/>
-                        
+                        <PokemonStats id={id} />
+                        </div>    
                     </div>
                 </div>
             </Container>

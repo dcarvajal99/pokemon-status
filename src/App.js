@@ -10,7 +10,7 @@ import './App.css'
 function App() {
   return (
     <div className="App contenedor bg-image opacity-80">
-      <BrowserRouter>
+      <BrowserRouter  basename="/pokemon-status">
         <NavigationBar />
         <Routes>
             <Route path="/" element={<Home />} />
