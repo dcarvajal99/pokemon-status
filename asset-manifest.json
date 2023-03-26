@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pokemon-status/static/css/main.e2f11f6e.css",
+    "main.js": "/pokemon-status/static/js/main.9bd19d0d.js",
+    "static/media/bg.jpg": "/pokemon-status/static/media/bg.e2f08b744164a7692ed8.jpg",
+    "index.html": "/pokemon-status/index.html",
+    "static/media/pokeball.svg": "/pokemon-status/static/media/pokeball.9219f321ebf4ab446668.svg",
+    "main.e2f11f6e.css.map": "/pokemon-status/static/css/main.e2f11f6e.css.map",
+    "main.9bd19d0d.js.map": "/pokemon-status/static/js/main.9bd19d0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2f11f6e.css",
+    "static/js/main.9bd19d0d.js"
+  ]
+}
