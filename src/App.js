@@ -14,6 +14,7 @@ function App() {
         <NavigationBar />
         <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/pokemon-status/" element={<Home />} />
             <Route path="/pokemones/" element={<Pokemones />} />
             <Route path="/pokemones/:id" element={<Resultado />} />
             <Route path="*" element={<NotFound />} />
