@@ -1,26 +1,12 @@
 import { Container } from "react-bootstrap"
-import { useState } from 'react';
 import '../App.css'
 import { useParams } from "react-router-dom";
-import { useEffect } from "react";
 import PokemonImagen from "../components/PokemonImagen";
 import PokemonStats from "../components/PokemonStats";
 
 const Resultado = () => {
     const { id } = useParams();
-    const endpoint = 'https://pokeapi.co/api/v2/pokemon/' + id;
-    const [pokemon, setPokemon] = useState([]);
 
-    useEffect(() => {
-        const consultarinfo = async () => {
-            const response = await fetch(endpoint)
-            await response.json().then((data) => {
-                setPokemon(data);
-                console.log(data)
-            })
-        }
-        consultarinfo()
-    }, []);
     return (
         <>
             <Container
